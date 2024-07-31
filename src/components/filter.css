@@ -1,0 +1,25 @@
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.filter-container> span {
+    font-size: 25px;
+    font-weight: bold;
+}
+.filter {
+    display: flex;
+    gap: 20px;
+}
+.filter form {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.filter form select {
+    padding: 5px;
+}
+.filter> span {
+    color: red;
+    font-size: 25px;
+}

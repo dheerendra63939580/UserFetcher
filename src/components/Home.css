@@ -1,0 +1,39 @@
+.table {
+    width: 100%;
+    border: 1px solid rgb(130, 126, 126);
+    
+    border-collapse: collapse;
+    border-spacing: 30px;
+}
+td{
+   padding: 0 5px;
+}
+th {
+    text-align: left;
+    padding: 10px 5px;
+}
+img {
+    width: 50px;
+}
+th,td {
+    border-bottom: 1px solid rgb(130, 126, 126)
+}
+.arrow-container>:nth-child(1) {
+    margin: 0 8px 0 5px;
+}
+.arrow-container>:nth-child(2) {
+    color: red;
+}
+
+.arrow-container span {
+    cursor: pointer;
+    font-size: 20px;
+}
+.loader {
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 0;
+    color:white
+}
